@@ -10,7 +10,7 @@ fn main() {
         .gen_range(1..=100);
 
     // println!("Secrete number: {}", secrete_number);
-
+    let mut guess_counter = 0;
     loop {
         println!("Please input your guess.");
         
@@ -28,7 +28,9 @@ fn main() {
             Err(_) => continue
         };
 
-        println!("You guessed: {guess}");
+        guess_counter +=1 ;
+
+        println!("You guessed: {guess}, total guess: {guess_counter}");
         
         match guess.cmp(&secrete_number) {
             Ordering::Less => println!("Too small!"),
