@@ -11,3 +11,4 @@ Use `cargo run` to build and run the program.
 Use `cargo build --release` for production build.
 
 
+Use `cargo doc --open` for documentations of dependencies used 
