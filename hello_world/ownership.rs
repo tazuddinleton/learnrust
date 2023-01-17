@@ -11,9 +11,11 @@ fn main() {
     // let y2 = y1;
 
 
-    let input = 1;
-    let mut output = 0;
-    noalias(&input, &mut output);
+    // let input = 1;
+    // let mut output = 0;
+    // noalias(&input, &mut output);
+
+
 }
 
 
@@ -31,3 +33,4 @@ fn noalias(input: &i32, output: &mut i32) {
         *output = 3;
     }
 }
+
