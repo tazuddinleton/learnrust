@@ -6,7 +6,7 @@ let mut x = 10;
 x = 42;
 ```
 
-##Shadowing
+## Shadowing
 In rust you can declare variable with same name multiple times. The latter one will *shadow* prior one. Like below
 ```
 let foo = 10;
